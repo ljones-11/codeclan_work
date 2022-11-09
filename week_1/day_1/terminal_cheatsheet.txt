@@ -1,0 +1,19 @@
+cd: Change directory
+cd ..: move up one directory
+cd ../../../: move up multiple directories
+ls: list items (contents of folder)
+ls -a: list all items display contents including hidden files
+ls -l: list item details
+pwd: print working directory -file path
+mkdir: make folder/directory
+touch: create file
+rm: remove
+rm -r: remove folder
+rm -fr: force remove recursively
+code .: open all files in current directory
+mv: move
+mv -r: move folder
+cp: copy
+cp -r: copy a folder
+CMD + K: clear screen
+history: shows list of 1400 previous commands
