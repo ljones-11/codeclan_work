@@ -76,3 +76,8 @@ def fahrenheit_to_celsius(fahrenheit):
     celsius = fahrenheit * 1.8
     return celsius
     
+def manipulate(num):
+    num += 10
+    print(num)
+
+manipulate(10)
