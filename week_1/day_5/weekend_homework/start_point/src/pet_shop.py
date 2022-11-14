@@ -96,7 +96,7 @@ def customer_can_afford_pet(customer, new_pet):
 
 
 
-# def sell_pet_to_customer(pet_shop, pet, customer):
+def sell_pet_to_customer(pet_shop, pet, customer):
 
 # # # #if pet there and customer can afford sell pet
 # # # # get customer pet count
@@ -106,15 +106,13 @@ def customer_can_afford_pet(customer, new_pet):
 
 # # # #if find pet by name = pet
 
-    #  if pet and customer_can_afford_pet(customer, pet):
+    if pet and customer_can_afford_pet(customer, pet):
 
         
-    #     increase_pets_sold(pet_shop, 1)
-    #     remove_customer_cash(customer, pet_shop)
-    #     add_pet_to_customer(customer, pet)
-
-    #     cash = pet_shop["pets"]["price"]
-    #     add_or_remove_cash(pet_shop,cash)
+        increase_pets_sold(pet_shop, 1)
+        remove_customer_cash(customer, pet["price"])
+        add_pet_to_customer(customer, pet)
+        add_or_remove_cash(pet_shop,pet["price"])
        
         
 
