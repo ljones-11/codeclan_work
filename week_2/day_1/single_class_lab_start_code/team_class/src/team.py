@@ -14,7 +14,7 @@ class Team:
         self.players.append(new_player)
 
     def has_player(self, name):
-
+#  if player in self.players also works but only in python
         for player in self.players:
             if player == name:
                 return True
