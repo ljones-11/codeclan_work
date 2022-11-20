@@ -33,21 +33,18 @@ class TestGuest(unittest.TestCase):
     def test_guest_has_a_favourite_song(self):
         self.assertEqual("Party in the USA", self.guest3.favourite_song)
 
-    # def test_no_favourite_song(self):
-    #     self.room2.add_guest_to_room(self.guest3)
-    #     self.room2.add_song_to_room(self.song3)
-    #     self.room2.add_song_to_room(self.song1)
-    #     self.room2.add_song_to_room(self.song2)
-    #     outcome = self.guest3.is_favourite_song_in_playlist(self.room2.songs)
-    #     self.assertEqual("They don't have my favourite song :(", outcome)
-
-
+    def test_no_favourite_song(self):
+        self.room2.add_guest_to_room(self.guest3)
+        self.room2.add_song_to_room(self.song1)
+        self.room2.add_song_to_room(self.song2)
+        outcome = self.guest3.is_favourite_song_in_playlist(self.room2.songs)
+        self.assertEqual("They don't have my favourite song :(", outcome)
 
     def test_favourite_song_in_playlist(self):
-        self.room1.add_guest_to_room(self.guest1)
-        self.room1.add_song_to_room(self.song1)
-        outcome = self.guest1.is_favourite_song_in_playlist(self.room1.songs)
-        self.assertEqual("Yasss, this is my favourite song!", outcome)
+        self.room1.add_guest_to_room(self.guest3)
+        self.room1.add_song_to_room(self.song3)
+        outcome = self.guest3.is_favourite_song_in_playlist(self.room1.songs)
+        self.assertEqual("Yasss, this is my favourite song! Party in the USA", outcome)
     
    
 

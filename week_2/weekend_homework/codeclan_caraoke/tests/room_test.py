@@ -36,7 +36,6 @@ class TestRoom(unittest.TestCase):
         self.room2.add_song_to_room(self.song1)
         self.assertEqual(1, len(self.room2.songs))
     
-    
     def test_room_is_full(self):
         self.room2.add_guest_to_room(self.guest1)
         self.room2.add_guest_to_room(self.guest2)
@@ -59,7 +58,10 @@ class TestRoom(unittest.TestCase):
         self.room2.add_guest_to_room(self.guest2)
         self.assertEqual(False, self.room2.can_guest_fit())
 
+    
 
+  
+        
     
 
 

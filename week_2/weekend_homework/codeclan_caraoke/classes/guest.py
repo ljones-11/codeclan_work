@@ -15,11 +15,12 @@ class Guest:
             return True
         else:
             return False
+    
 
     def is_favourite_song_in_playlist(self, playlist):
         
         for song in playlist:
-            if song == self.favourite_song:
-                return ("Yasss, this is my favourite song!")
+            if song.title == self.favourite_song:
+                return f"Yasss, this is my favourite song! {self.favourite_song}"
             else:
-              "They don't have my favourite song :("
+                return "They don't have my favourite song :("
