@@ -37,13 +37,13 @@ class TestGuest(unittest.TestCase):
         self.room2.add_guest_to_room(self.guest3)
         self.room2.add_song_to_room(self.song1)
         self.room2.add_song_to_room(self.song2)
-        outcome = self.guest3.is_favourite_song_in_playlist(self.room2.songs)
+        outcome = self.room2.is_favourite_song_in_playlist(self.guest3.favourite_song)
         self.assertEqual("They don't have my favourite song :(", outcome)
 
     def test_favourite_song_in_playlist(self):
         self.room1.add_guest_to_room(self.guest3)
         self.room1.add_song_to_room(self.song3)
-        outcome = self.guest3.is_favourite_song_in_playlist(self.room1.songs)
+        outcome = self.room1.is_favourite_song_in_playlist(self.guest3.favourite_song)
         self.assertEqual("Yasss, this is my favourite song! Party in the USA", outcome)
     
    

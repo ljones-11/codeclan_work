@@ -17,10 +17,4 @@ class Guest:
             return False
     
 
-    def is_favourite_song_in_playlist(self, playlist):
-        
-        for song in playlist:
-            if song.title == self.favourite_song:
-                return f"Yasss, this is my favourite song! {self.favourite_song}"
-            else:
-                return "They don't have my favourite song :("
+    

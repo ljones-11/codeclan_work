@@ -26,14 +26,14 @@ class Room:
     def add_fee_to_tab(self, entry_fee):
         self.tab += entry_fee
 
-    # def is_favourite_song_in_playlist(self, favourite_song):
+    def is_favourite_song_in_playlist(self, favourite_song):
         
-    #     # for song in self.songs:
-    #     #     if song == favourite_song:
-    #         if favourite_song in self.songs:
-    #             return "Yasss, this is my favourite song!"
-    #         else:
-    #             return "They don't have my favourite song :("
+        for song in self.songs:
+            if song.title == favourite_song:
+                return f"Yasss, this is my favourite song! {favourite_song}"
+            else:
+                return "They don't have my favourite song :("
+
        
         
 
