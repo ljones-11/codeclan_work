@@ -7,11 +7,19 @@ class Room:
         self.entry_fee = entry_fee
         self.number_of_guests = []
         self.songs = []
+        self.tab = 0
+        
 
     
     def add_guest_to_room(self, guest):
         if len(self.number_of_guests) < self.capacity:
             self.number_of_guests.append(guest)
+
+    def can_guest_fit(self):
+        if len(self.number_of_guests) < self.capacity:
+            return True
+        else:
+            return False
         
     
     def remove_guest(self, guest):
@@ -20,6 +28,12 @@ class Room:
 
     def add_song_to_room(self, song): 
         self.songs.append(song)
+
+    def add_fee_to_tab(self, entry_fee):
+        self.tab += entry_fee
+
+    
+    
 
 #    def is_favourite_song_in_playlist(self, favourite_song):
 #         for song in self.songs:

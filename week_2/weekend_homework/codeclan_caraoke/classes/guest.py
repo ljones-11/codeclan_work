@@ -10,8 +10,11 @@ class Guest:
 
         self.wallet -= entry_fee
 
-
-
+    def sufficient_funds(self, entry_fee):
+        if self.wallet > entry_fee:
+            return True
+        else:
+            return False
 
     def is_favourite_song_in_playlist(self, playlist):
         

@@ -43,15 +43,22 @@ class TestRoom(unittest.TestCase):
         self.room2.add_guest_to_room(self.guest3)
         self.assertEqual(2, len(self.room2.number_of_guests))
     
-    def test_room_full_message(self):
-        self.room2.add_guest_to_room(self.guest1)
-        self.room2.add_guest_to_room(self.guest2)
-        
-
-      
-    
     def test_room_has_entry_fee(self):
         self.assertEqual(10, self.room3.entry_fee)
+
+    def test_add_to_tab(self):
+        self.room2.add_fee_to_tab(self.room2.entry_fee)
+        self.assertEqual(30, self.room2.tab)
+    
+    def test_can_fit_in_room(self):
+        outcome = self.room2.can_guest_fit()
+        self.assertEqual(True, outcome)
+
+    def test_cannot_fit_in_room(self):
+        self.room2.add_guest_to_room(self.guest1)
+        self.room2.add_guest_to_room(self.guest2)
+        self.assertEqual(False, self.room2.can_guest_fit())
+
 
     
 
