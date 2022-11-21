@@ -1,0 +1,64 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: auto;
+}
+
+body > footer{
+    background-color: dodgerblue;
+}
+
+body > footer > h5{
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+body > header{
+    background-color: dodgerblue;
+    color: white;
+    margin: 15
+
+}
+#logo{
+    margin: 0;
+    font-family: Helvetica, sans-serif
+}
+
+nav > ul{
+    list-style: none;
+}
+nav > ul > li > a{
+    color: white;
+}
+
+body > main > article{
+    margin:auto;
+    width: 70%;
+}
+
+.like-button{
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+}
+
+.share-button{
+    background-color: transparent;
+    border: 1px solid green;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: white;
+    font-size: 16px;
+    resize: none;
+  }
+.button {
+    text-align: right;
+    float: right;
+}
