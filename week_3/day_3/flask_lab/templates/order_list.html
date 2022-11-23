@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>{{ title }} Guitar Shop - List of orders</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1>Guitar Shop - List of Orders</h1>
+        
+        {% for order in orders  %}
+            <div>
+                <p>
+                    <a href="/orders/{{orders.index(order)}}">Order ID: {{ order.id_no }}</a>
+                    
+                </p>
+            </div>
+        {% endfor %}
+
+
+    </body>
+</html>

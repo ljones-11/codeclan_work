@@ -1,0 +1,12 @@
+h1 {
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
