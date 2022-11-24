@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Events</h2>
+    <ul>
+        {% for event in events %}
+        <li>
+            <h3>Date:</h3><p>{{ event.date }}</p>
+            <h3>Name:</h3><p>{{event.name}}</p>
+            <h3>Crowd:</h3><p>{{event.crowd}}</p>
+            <h3>Location:</h3><p>{{event.location}}</p>
+            <h3>Description:</h3><p>{{event.description}}</p>
+            <h3>Age Restriction (+18):</h3>
+            <p>
+                {% if event.age_restriction  %}
+                        return <p>&#128683;</p>
+                {% else %}
+                    return <p>&#128994;</p>
+                {{event.age_restriction}}
+                {% endif %}
+            
+            
+            </p>
+
+        </li>
+            
+        {% endfor %}
+    </ul>
+    
+{% endblock content %}

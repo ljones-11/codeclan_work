@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2> Add New Event </h2>
+
+<form action="/events" method="post">
+
+    <label for="event_date">Date</label>
+    <input type="date" name="event_date" id="event_date">
+
+    <label for="event_name">Name</label>
+    <input type="text" name="event_name" id="event_name">
+
+    <label for="event_date">Crowd</label>
+    <input type="number" name="event_crowd" id="event_crowd">
+
+    <label for="event_location">Location</label>
+    <input type="text" name="event_location" id="event_location">
+
+    <label for="event_description">Description</label>
+    <input type="text" name="event_description" id="event_description">
+
+    <label for="event_age_restriction">Age Restriction (+18)</label>
+    <input type="checkbox" name="event_age_restriction" id="event_age_restriction">
+
+
+    <input type="Submit", value="Save Event">
+
+</form>
+    
+{% endblock content %}
