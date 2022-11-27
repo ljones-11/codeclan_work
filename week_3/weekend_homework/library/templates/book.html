@@ -1,20 +1,28 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h3>Title</h3>
-    <p>{{ book.title }}</p>
-    <h3>Author</h3>
-    <p>{{ book.author }}</p>
-    <h3>Genre</h3>
-    <p>{{ book.genre }}</p>
-    <div>
-    <h3>Status</h3>
-    <p>{% if book.checked_out %}
-        <span>Checked out &#10060;</span>
-        {% else %}
-        <span>Available &#9989;</span>
-    {% endif %}</p>
-
-    </div>
-
+    <body class="book-body">
+        <div class="container">
+            <div>
+            <h3>Title:</h3>
+            <p> {{ book.title }} </p>
+            </div>
+            <div>
+            <h3>Author:<h3>
+            <p>{{ book.author }}</p>
+            </div>
+            <div>
+            <h3>Genre:</h3>
+            <p>{{ book.genre }}</p>
+            </div>
+            <div>
+            <h3>Status:</h3>
+            <p>{% if book.checked_out %}
+                Checked out &#10060;
+                {% else %}
+                Available &#9989;
+            {% endif %}</p>
+            </div>
+        </div>
+    </body>
 {% endblock content %}

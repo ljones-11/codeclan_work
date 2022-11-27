@@ -2,38 +2,84 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
+.logo {
+    text-decoration: underline;
+}
+.main-header .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: aliceblue;
+    justify-content: space-around;
+    background-color: rgb(162, 201, 236);
     align-items: center;
 }
 
+.main-footer {
+    display: flex;
+    justify-content:center;
+    background-color: rgb(162, 201, 236);
+    align-items:center;
+}
 
 
-nav > div > ul {
-    padding:0;
-    gap:1rem;
+.main-nav-list li {
+    display: inline;
+    color: black;
+    margin: 1em 0 .5em;
+    text-align: center;
     list-style: none;
 }
 
-nav > div > ul > li > a {
-    color: black;
-}
-
-nav > div > ul :hover{
+.main-nav ul :hover{
     color: white;
     text-decoration:solid, underline;
 }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: aliceblue;
+.main-nav a {
+    display: inline-block;
+    padding: 2 rem;
+    color: black
 }
 
+.book-body .container {
+    display:flex;
+    justify-content:space-evenly;
+    align-content: center;
+}
+
+.container-addbook {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%
+}
+
+.container-addbook >h3 {
+    padding-right: 10px;
+    text-decoration: underline;
+}
+
+.container-booklist {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.container-booklist >h2 {
+    margin-left:2rem;
+    text-decoration: underline;
+
+}
+
+
+.container-booklist >ul {
+    list-style: none;
+}
+
+.container-booklist > li {
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+}
 
 
 
