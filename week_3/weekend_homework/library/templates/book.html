@@ -8,6 +8,12 @@
     <h3>Genre</h3>
     <p>{{ book.genre }}</p>
     <div>
+    <h3>Status</h3>
+    <p>{% if book.checked_out %}
+        <span>Checked out &#10060;</span>
+        {% else %}
+        <span>Available &#9989;</span>
+    {% endif %}</p>
 
     </div>
 

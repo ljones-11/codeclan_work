@@ -22,7 +22,7 @@ def add_book():
     title = request.form["title"]
     author = request.form["author"]
     genre = request.form["genre"]
-    new_book = Book(title=title, author=author, genre=genre)
+    new_book = Book(title=title, author=author, genre=genre, checked_out=False)
     add_new_book(new_book)
     return redirect('/books')
 
