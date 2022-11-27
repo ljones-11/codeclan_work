@@ -34,6 +34,12 @@
                     {% else %}
                             <span>Available &#9989;</span>
                     {% endif %}</p>
+
+                    <form action="/books/<index>" method="post">
+                        <label for="status_update">Update Status</label>
+                        <input type="checkbox" name="status_update" id="status_update"><br>
+                        <input type="submit" value="Update"><br>
+                    </form>
                 </li>
             {% endfor %}
         </ul>

@@ -34,4 +34,10 @@ def delete_book():
 
     return redirect('/books')
 
+# @app.route('/books/<index>', methods = ['POST'])
+# def update_status(index):
+#     book_to_update = get_book(index)
+#     update = request.form['status_update']
+    
+
     
