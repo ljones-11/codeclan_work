@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    align-items: center;
+}
+
+
+
+nav > div > ul {
+    padding:0;
+    gap:1rem;
+    list-style: none;
+}
+
+nav > div > ul > li > a {
+    color: black;
+}
+
+nav > div > ul :hover{
+    color: white;
+    text-decoration:solid, underline;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
