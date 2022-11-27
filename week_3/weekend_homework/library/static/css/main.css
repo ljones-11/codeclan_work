@@ -76,7 +76,6 @@ body {
 }
 
 .container-booklist > li {
-    display:flex;
     list-style: none;
     flex-direction: row;
 }

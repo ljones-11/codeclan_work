@@ -21,16 +21,16 @@ class TestBook(unittest.TestCase):
     def test_book_has_genre(self):
         self.assertEqual("Fantasy", self.book1.genre)
         
-    def test_single_book(self):
+    def test_book_added_to_list(self):
         self.books.add_new_book(self.book1)
         self.assertEqual("1", len(book_list))
 
     def test_book_is_has_checked_out_status(self):
         self.assertEqual(True, self.book1.checked_out)
 
-
-
-
-
-        # def test_add_book
-        # def test_remove_book
+    def test_book_is_removed(self):
+        self.books.add_new_book(self.book1)
+        self.books.add_new_book(self.book2)
+        self.books.add_new_book(self.book3)
+        self.books.remove_book(self.book3)
+        self.assertEqual("2", len(book_list))
