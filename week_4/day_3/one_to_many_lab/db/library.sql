@@ -5,12 +5,12 @@ DROP TABLE if EXISTS authors;
 
 CREATE TABLE authors (
     id SERIAL PRIMARY KEY,
-    title VARCHAR(255)
+    name VARCHAR(255)
 );
 
 CREATE TABLE books (
     id SERIAL PRIMARY KEY,
     title VARCHAR(255),
     genre VARCHAR(255),
-    author_id INT NOT NULL REFERENCES authors(id)
+    author_id INT NOT NULL REFERENCES authors(id) ON DELETE CASCADE
 );
