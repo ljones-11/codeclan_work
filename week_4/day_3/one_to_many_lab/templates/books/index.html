@@ -3,8 +3,13 @@
 {% for book in books %}
         <div>
             <p>{{ book.title }}</p>
-            <p>{{ book.author.name }}</p>
+            <a href="author/{{book.author.id}}" ><p>{{ book.author.name }}</p></a>
             <p>{{ book.genre }}</p>
+        </div>
+        <div>
+            <form action="/books/{{book.id}}/delete" method = "post">
+                <button>Delete Book</button>
+            </form>
         </div>
 {% endfor %}
 
