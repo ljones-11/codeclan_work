@@ -35,9 +35,10 @@ def select(id):
     book = None
     sql = "SELECT from books WHERE id = %s"
     values = [id]
-    result = run_sql(sql, values)
+    results = run_sql(sql, values)
 
-    if result is not None:
+    if results:
+        result=results[0]
         author = author_repository.select(result['author_id'])
         book = Book(result['title'], author, result['genre'], result['id'])
     return book
@@ -45,4 +46,5 @@ def select(id):
 def update(book):
     sql = "UPDATE books set (title, author_id, genre) = (%s, %s, %s) WHERE id = %s"
     values = [book.title, book.author.id, book.genre]
+    print(values)
     run_sql(sql, values)

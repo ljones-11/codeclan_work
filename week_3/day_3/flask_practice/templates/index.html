@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Home Page </title>
+    </head>
+    <body>
+        <h1>Home Page</h1>
+
+        {% for x in content %}
+            
+                <p>{{x}}</p>
+                {% if x == "bill" %}
+                    <p>{{x}}</p>
+                {% endif %}
+            
+        {% endfor %}
+
+    </body>
+</html>

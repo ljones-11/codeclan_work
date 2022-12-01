@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Player 1 Choice</h2>
+
+<form class="form" action="/results" method="POST">
+    <label for="player1">
+        <select id="player-choice" name="player1">
+            <option value="rock">Rock</option>
+            <option value="paper">Paper</option>
+            <option value="scissors">Scissors</option>
+        </select>
+    </label>
+</form>
+
+<h2>Player 2 Choice</h2>
+<form class="form" action="/results" method="POST">
+    <label for="player2">
+        <select id="player-choice" name="player2">
+        <option value="rock">Rock</option>
+        <option value="paper">Paper</option>
+        <option value="scissors">Scissors</option>
+        </select>
+    </label><br><br>
+        <input type="submit" value="Shoot">
+</form>
+{% endblock content%}
