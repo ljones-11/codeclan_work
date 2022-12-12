@@ -40,7 +40,7 @@ def select(id):
     author = None
     sql = "SELECT * FROM authors WHERE id = %s"
     values = [id]
-    results = run_sql(sql, values)[0]
+    results = run_sql(sql, values)
 
     if results:
         result = results[0]
