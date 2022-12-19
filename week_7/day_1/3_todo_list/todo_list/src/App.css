@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  display:flex;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+
+li.high {
+  border: 2px solid #dd5435;
+  justify-content: center;
+  box-shadow: 10px, 10px;
+  color:#dd5435;
+  list-style: none;
+  display: flex;
+  
+}
+
+li.low {
+  display: flex;
+  border: 2px solid #3cc943;
+  box-shadow: 5px, 5px;
+  justify-content: center;
+  color: #3cc943;
+  list-style: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:1rem;
+  align-items:center;
+}
