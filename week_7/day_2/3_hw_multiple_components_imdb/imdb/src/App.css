@@ -4,6 +4,8 @@ html {
 
 .container {
   border-style: solid;
+  margin: auto;
+  margin-top: 5rem;
   border-width: 3px;
   max-width: fit-content;
   padding-left:3rem;
