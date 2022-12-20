@@ -1,0 +1,44 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  border-style: solid;
+  border-width: 3px;
+  max-width: fit-content;
+  padding-left:3rem;
+  padding-right:3rem;
+  background-color: rgb(231, 231, 231);
+}
+
+.list-container {
+  display:flex;
+  justify-content: center;
+}
+
+.link-container {
+  display:flex;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  background-color: lightblue;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+a {
+  color: rgb(9, 92, 175);
+  text-decoration: none;
+  font-weight: bold;
+}
