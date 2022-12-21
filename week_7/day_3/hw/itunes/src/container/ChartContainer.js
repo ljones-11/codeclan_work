@@ -17,8 +17,9 @@ const ChartContainer = () => {
 
 
     return (
-        <div>
+        <div className='main-container'>
             <h1>Current UK Top 20</h1>
+            <div class="hr"></div>
             <SongList songs={songs} />
 
         </div>

@@ -5,7 +5,7 @@ const SongList = ({songs}) => {
 
     const songList = songs.map((song, index) => {
         console.log(song)
-        return <Song song={song} key={index} index={index} image={song['im:image'][0].label} audio={song.link[1].attributes.href}/>
+        return <Song song={song} key={index} index={index} image={song['im:image'][0].label} audio={song.link[1].attributes.href} genre={song.category.attributes.term}/>
             
             
     })
@@ -15,8 +15,8 @@ const SongList = ({songs}) => {
 
 
     return (
-        <div>
-            <ul>
+        <div className='list-container'>
+            <ul className='ul-song-list'>
                 {songList}
             </ul>
         </div>
