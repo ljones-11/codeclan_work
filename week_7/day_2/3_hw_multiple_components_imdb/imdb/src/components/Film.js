@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Film = ({name, url}) => {
+const Film = ({film}) => {
     return (
         <>
             <li>
-                <a href={url}><p>{name}</p></a>
+                <a href={film.url}><p>{film.name}</p></a>
             </li>
         </>
     )
