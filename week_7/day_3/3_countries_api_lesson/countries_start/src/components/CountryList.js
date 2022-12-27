@@ -1,5 +1,6 @@
 import React from 'react';
 import ListItem from './ListItem';
+import './App.css';
 
 const CountryList = ({countries, onCountryClicked}) => {
 
@@ -9,7 +10,7 @@ const CountryList = ({countries, onCountryClicked}) => {
 
   return (
     <div>
-    <ul>
+    <ul className='ul'>
       {countryItems}
     </ul>
   </div>
