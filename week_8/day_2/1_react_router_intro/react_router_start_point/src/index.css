@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar-div {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px grey;
+
+}
+
+.navbar-list {
+  display:flex;
+  gap:1rem;
+  list-style: none;
+  padding:20px;
+
+}
+
+.navbar-list > li {
+  display:flex;
+
+}
+
