@@ -34,24 +34,26 @@ const NewsContainer = () => {
     
 });
 
- const filteredArticles = (searchTerm) => {
+    const filteredArticles = (searchTerm) => {
     const searchResults = allNews.filter((article)=>{
-            return article.title.includes(searchTerm)
+            return article.title.toLowerCase().includes(searchTerm.toLowerCase())
     })
 
     setNews(searchResults);
- }
+    }
 
 
 
 
     return (
-        <div>
+        <main>
             <SearchBar filteredArticles = {filteredArticles} />
-            <ul>
-                {storyDetail}
-            </ul>
-        </div>
+            <div className='news-div'>
+                <ul className='news-ul'>
+                    {storyDetail}
+                </ul>
+            </div>
+        </main>
     )
 }
 

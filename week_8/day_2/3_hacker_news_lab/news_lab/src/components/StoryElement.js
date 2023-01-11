@@ -5,7 +5,7 @@ const StoryElement = ({title, url}) => {
     if (url) {
         return (
             
-            <li><a href={url}>{title}</a></li>
+            <li className='list-item'><a href={url}>{title}</a></li>
         )
     } else {
         return null

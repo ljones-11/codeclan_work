@@ -16,8 +16,8 @@ const SearchBar = ({filteredArticles}) => {
 
         return (
 
-        <div>
-            <input type='search' onChange={handleChange} value={searchQuery}></input>
+        <div className='filter-div'>
+                <input className='filter-input' id='name'type='search' onChange={handleChange} value={searchQuery}></input>
         </div>
     )
 
