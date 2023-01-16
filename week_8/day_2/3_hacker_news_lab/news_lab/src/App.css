@@ -29,6 +29,7 @@ header {
     color: #252525;
     background: #a4a4a4;
     font-family: "Press Start 2P";
+    border-radius: 10px;
 }
 
 .news-div {
@@ -47,9 +48,10 @@ header {
   text-align: center;
   padding:30px;
   color:#008F11;
-  border-style: solid;
+  /* border-style: solid; */
   margin:20px;
   box-shadow: 0 0 10px #008F11;
+  border-radius: 10px;
 }
 
 a {
@@ -58,5 +60,9 @@ a {
 
 a:hover {
   color: white;
+}
+
+.author {
+  color: #a4a4a4;
 }
 

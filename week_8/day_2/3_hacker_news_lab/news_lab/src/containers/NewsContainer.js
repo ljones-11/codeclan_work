@@ -12,16 +12,17 @@ const NewsContainer = () => {
 
         fetch('https://hacker-news.firebaseio.com/v0/topstories.json')
         .then(res => res.json())
-        .then( data => {
+        .then( storyIds => {
 
-        const storyPromises = data.slice(0,20).map((storyId) => {
-            return fetch(`https://hacker-news.firebaseio.com/v0/item/${storyId}.json`).then(res => res.json());
+        const storyPromises = storyIds.slice(0,20).map((storyId) => {
+            return fetch(`https://hacker-news.firebaseio.com/v0/item/${storyId}.json`)
+                    .then(res => res.json());
         });
 
         Promise.all(storyPromises)
-            .then(data => {
-                setNews( data )
-                setAllNews( data )
+            .then(storyData => {
+                setNews( storyData )
+                setAllNews( storyData )
             })
             
             });
@@ -29,14 +30,16 @@ const NewsContainer = () => {
 
 
     const storyDetail = news.map((story) => {
-        return <StoryElement title = {story.title} key= {story.id} url={story.url} />
+        return <StoryElement title = {story.title} key= {story.id} url={story.url} author={story.by} />
 
     
 });
 
     const filteredArticles = (searchTerm) => {
     const searchResults = allNews.filter((article)=>{
-            return article.title.toLowerCase().includes(searchTerm.toLowerCase())
+            return article.title.toLowerCase().includes(searchTerm.toLowerCase()) 
+            || article.by.toLowerCase().includes(searchTerm.toLowerCase())
+            
     })
 
     setNews(searchResults);
