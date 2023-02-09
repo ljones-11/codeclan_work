@@ -24,16 +24,12 @@ public class Printer {
 
 
 
-
-    public int print(int sheetNum, int copies) {
+    public void print(int sheetNum, int copies) {
         int sheetsRequired = sheetNum * copies;
-        if (remainingSheets > sheetsRequired) {
+        int tonerRequired = sheetsRequired;
+        if (remainingSheets > sheetsRequired && remainingSheets > sheetsRequired) {
             remainingSheets -= sheetsRequired;
-//            remainingToner -= sheetsRequired;
-
-            return remainingSheets;
-        } else {
-            return remainingSheets;
+            remainingToner -= tonerRequired;
         }
 //
     }

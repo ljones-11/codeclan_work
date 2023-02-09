@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75226f8a-602f-4900-83a8-4b26d603f348" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../day_1/Arrays/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Arrays/src/main/java/WordCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Arrays/src/main/java/org/example/NumberList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Arrays/src/test/java/NumberListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Arrays/src/test/java/WordCollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/src/main/java/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/src/main/java/River.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/src/main/java/Salmon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/src/test/java/BearTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/BearRiverFish/src/test/java/TestRiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/HashMaps/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/HashMaps/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/HashMaps/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/HashMaps/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/HashMaps/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/HashMaps/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/HashMaps/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/HashMaps/src/main/java/org/example/HashMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/HashMaps/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/src/main/java/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/src/main/java/Borrower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/src/main/java/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/src/test/java/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/src/test/java/BorrowerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_1/Library/src/test/java/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_2/.idea/day_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_2/Arrays/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_2/Arrays/.idea/Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/.idea/abstract_classes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/target/classes/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/target/classes/Motorbike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/target/classes/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/target/test-classes/CarTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/target/test-classes/MotorbikeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/abstract_classes/code/abstract_classes_startpoint/target/test-classes/VehicleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/.idea/inheritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_end_code/inheritance_end_point.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/inheritance_start_point.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/src/test/java/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/target/classes/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/target/test-classes/InstructorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/target/test-classes/PersonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/inheritance/inheritance_start_point/target/test-classes/StudentTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/packages_start_point.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/src/main/java/animal/air/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day_3/packages/packages_start_point/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GuestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Bedroom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ConferenceRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DiningRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Guest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Room.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/RoomType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BedroomTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/HotelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/src/main/java/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/src/main/java/RoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EnumTesting/src/test/java/RoomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticTesting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticTesting/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticTesting/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticTesting/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticTesting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticTesting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticTesting/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticTesting/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticTesting/src/main/java/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_1/Bottle/src/main/java/org/example/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_1/Bottle/src/main/java/org/example/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_1/Bottle/target/classes/org/example/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_1/Bottle/target/classes/org/example/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day_1/Bottle/target/test-classes/PrinterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_1/Bottle/target/test-classes/PrinterTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LV3304MuJ5TGVXCM59aqZQw4GR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.HotelTest.bookingOnlyMadeIfBedroomVacant">
+    <configuration name="HotelTest.bookingOnlyMadeIfBedroomVacant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotelTest" />
+      <option name="METHOD_NAME" value="bookingOnlyMadeIfBedroomVacant" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelTest.canCreateBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotelTest" />
+      <option name="METHOD_NAME" value="canCreateBooking" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelTest.canGetVacantBedrooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotelTest" />
+      <option name="METHOD_NAME" value="canGetVacantBedrooms" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomTest.canAddGuestToRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="canAddGuestToRoom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomTest.canRemoveGuestFromRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="canRemoveGuestFromRoom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HotelTest.bookingOnlyMadeIfBedroomVacant" />
+        <item itemvalue="JUnit.HotelTest.canGetVacantBedrooms" />
+        <item itemvalue="JUnit.HotelTest.canCreateBooking" />
+        <item itemvalue="JUnit.RoomTest.canRemoveGuestFromRoom" />
+        <item itemvalue="JUnit.RoomTest.canAddGuestToRoom" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75226f8a-602f-4900-83a8-4b26d603f348" name="Changes" comment="" />
+      <created>1675942254901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675942254901</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
