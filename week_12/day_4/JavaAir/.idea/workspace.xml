@@ -5,29 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c35ed6-0306-4d55-b05a-bee584dc18d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CabinCrewMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pilot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PlaneType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CabinCrewMemberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PassengerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PilotTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Passenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PassengerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FlightManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodeClanTowers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeClanTowers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CabinCrewMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CabinCrewMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlaneType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlaneType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CabinCrewMemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CabinCrewMemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PilotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PilotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CabinCrewMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CabinCrewMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Flight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pilot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Plane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PlaneType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PlaneType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CabinCrewMemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CabinCrewMemberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FlightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PilotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PilotTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,51 +61,52 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FlightTest.cabinCrewMembersCanBeAddedToFlight">
-    <configuration name="FlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FlightManagerTest.getRemainingBaggageWeightAvailable">
+    <configuration name="FlightManagerTest.getBaggageWeightBooked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAir" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlightTest.cabinCrewMembersCanBeAddedToFlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaAir" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="cabinCrewMembersCanBeAddedToFlight" />
+      <option name="MAIN_CLASS_NAME" value="FlightManagerTest" />
+      <option name="METHOD_NAME" value="getBaggageWeightBooked" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest.flightHasFlightNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightManagerTest.getPassengerWeightAllowance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAir" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="flightHasFlightNumber" />
+      <option name="MAIN_CLASS_NAME" value="FlightManagerTest" />
+      <option name="METHOD_NAME" value="getPassengerWeightAllowance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest.flightHasListOfPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightManagerTest.getRemainingBaggageWeightAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAir" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="flightHasListOfPassengers" />
+      <option name="MAIN_CLASS_NAME" value="FlightManagerTest" />
+      <option name="METHOD_NAME" value="getRemainingBaggageWeightAvailable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest.flightHasPlane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightManagerTest.planeHasReservedBaggageAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaAir" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightManagerTest" />
+      <option name="METHOD_NAME" value="planeHasReservedBaggageAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightTest.planeHasReservedBaggageAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAir" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="flightHasPlane" />
+      <option name="METHOD_NAME" value="planeHasReservedBaggageAmount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FlightTest.cabinCrewMembersCanBeAddedToFlight" />
-        <item itemvalue="JUnit.FlightTest" />
-        <item itemvalue="JUnit.FlightTest.flightHasFlightNumber" />
-        <item itemvalue="JUnit.FlightTest.flightHasPlane" />
-        <item itemvalue="JUnit.FlightTest.flightHasListOfPassengers" />
+        <item itemvalue="JUnit.FlightManagerTest.getRemainingBaggageWeightAvailable" />
+        <item itemvalue="JUnit.FlightManagerTest.getBaggageWeightBooked" />
+        <item itemvalue="JUnit.FlightManagerTest.getPassengerWeightAllowance" />
+        <item itemvalue="JUnit.FlightManagerTest.planeHasReservedBaggageAmount" />
+        <item itemvalue="JUnit.FlightTest.planeHasReservedBaggageAmount" />
       </list>
     </recent_temporary>
   </component>

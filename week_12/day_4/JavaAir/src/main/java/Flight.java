@@ -83,4 +83,20 @@ public class Flight {
     public void addCabinCrew(CabinCrewMember cabinCrewMember) {
         cabinCrewMembers.add(cabinCrewMember);
     }
+
+    public boolean bookPassenger(Passenger passenger){
+        if (passengers.size() < plane.getPlaneType().getCapacity()){
+            passengers.add(passenger);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public int getAvailableSeats() {
+        return this.plane.getPlaneType().getCapacity() - passengers.size();
+    }
+
+
+
 }

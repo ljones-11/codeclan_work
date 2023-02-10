@@ -23,4 +23,6 @@ public class PilotTest {
     public void pilotHasRank(){
         assertEquals(Rank.CAPTAIN, pilot.getRank());
     }
+    @Test
+    public void pilotCanFlyPlane(){assertEquals("Take Off!", pilot.flyPlane());}
 }

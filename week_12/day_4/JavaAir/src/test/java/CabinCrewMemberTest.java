@@ -19,4 +19,6 @@ public class CabinCrewMemberTest {
     public void pilotHasRank(){
         assertEquals(Rank.FLIGHT_ATTENDANT, cabinCrew.getRank());
     }
+    @Test
+    public void crewMemberCanRelayMessages(){assertEquals("Please fasten your seatbelts", cabinCrew.relayMessage());}
 }

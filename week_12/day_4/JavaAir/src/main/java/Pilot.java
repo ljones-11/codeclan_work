@@ -31,4 +31,8 @@ public class Pilot {
     public Rank getRank() {
         return this.rank;
     }
+
+    public String flyPlane(){
+        return "Take Off!";
+    }
 }

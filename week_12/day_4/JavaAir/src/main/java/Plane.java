@@ -10,7 +10,5 @@ public class Plane {
         return planeType;
     }
 
-    public void setPlaneType(PlaneType planeType) {
-        this.planeType = planeType;
-    }
+
 }
