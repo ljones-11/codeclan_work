@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c35ed6-0306-4d55-b05a-bee584dc18d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FlightManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodeClanTowers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeClanTowers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CabinCrewMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CabinCrewMember.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlaneType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlaneType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CabinCrewMemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CabinCrewMemberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PilotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PilotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CabinCrewMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CabinCrewMember.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Flight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pilot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PlaneType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PlaneType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CabinCrewMemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CabinCrewMemberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FlightTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PilotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PilotTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +45,13 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FlightManagerTest.getRemainingBaggageWeightAvailable">
+  <component name="RunManager" selected="JUnit.FlightTest.flightHasPilot">
     <configuration name="FlightManagerTest.getBaggageWeightBooked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAir" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,21 +82,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightManagerTest.planeHasReservedBaggageAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightTest.flightHasDepartureTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAir" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlightManagerTest" />
-      <option name="METHOD_NAME" value="planeHasReservedBaggageAmount" />
+      <option name="MAIN_CLASS_NAME" value="FlightTest" />
+      <option name="METHOD_NAME" value="flightHasDepartureTime" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest.planeHasReservedBaggageAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightTest.flightHasPilot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAir" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="planeHasReservedBaggageAmount" />
+      <option name="METHOD_NAME" value="flightHasPilot" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightTest.flightHasPilot" />
+        <item itemvalue="JUnit.FlightTest.flightHasDepartureTime" />
         <item itemvalue="JUnit.FlightManagerTest.getRemainingBaggageWeightAvailable" />
         <item itemvalue="JUnit.FlightManagerTest.getBaggageWeightBooked" />
         <item itemvalue="JUnit.FlightManagerTest.getPassengerWeightAllowance" />
-        <item itemvalue="JUnit.FlightManagerTest.planeHasReservedBaggageAmount" />
-        <item itemvalue="JUnit.FlightTest.planeHasReservedBaggageAmount" />
       </list>
     </recent_temporary>
   </component>

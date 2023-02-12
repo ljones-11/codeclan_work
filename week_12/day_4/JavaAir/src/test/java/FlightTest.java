@@ -1,7 +1,10 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 import static org.junit.Assert.assertEquals;
 
@@ -23,6 +26,10 @@ public class FlightTest {
 
     private Passenger passenger1;
 
+    SimpleDateFormat sdf = new SimpleDateFormat("HHmm");
+
+
+
 
 
 
@@ -31,8 +38,22 @@ public class FlightTest {
         pilot1 = new Pilot("Bryan", Rank.FIRST_OFFICER, "license123");
         plane1 = new Plane(PlaneType.BOEING747);
         plane2 = new Plane(PlaneType.MICROLIGHT);
-        flight1 = new Flight(pilot1, cabinCrewMembers, passengers, plane1,"ABC123", "GLA", "CDG","0600");
-        flight2 = new Flight(pilot1, cabinCrewMembers, passengers, plane2,"ML123", "GLA", "GLA","0700");
+        Date departureTime1;
+        try {
+            departureTime1 = sdf.parse("0600");
+        } catch (ParseException e) {
+            e.printStackTrace();
+            departureTime1 = new Date();
+        }
+        Date departureTime2;
+        try {
+            departureTime2 = sdf.parse("1900");
+        } catch (ParseException e) {
+            e.printStackTrace();
+            departureTime2 = new Date();
+        }
+        flight1 = new Flight(pilot1, cabinCrewMembers, passengers, plane1,"ABC123", "GLA", "CDG",departureTime1);
+        flight2 = new Flight(pilot1, cabinCrewMembers, passengers, plane2,"ML123", "GLA", "GLA",departureTime2);
         cabinCrewMember1 = new CabinCrewMember("Steve", Rank.FIRST_OFFICER);
         cabinCrewMember2 = new CabinCrewMember("Ben", Rank.PURSER);
         cabinCrewMember3 = new CabinCrewMember("Ash", Rank.FLIGHT_ATTENDANT);
@@ -71,7 +92,7 @@ public class FlightTest {
     }
     @Test
     public void flightHasDepartureTime(){
-        assertEquals("0600", flight1.getDepartureTime());
+        assertEquals("0610", flight1.getDepartureTime());
     }
     @Test
     public void cabinCrewMembersCanBeAddedToFlight(){
