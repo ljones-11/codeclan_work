@@ -8,11 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAir/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/src/main/java/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAir/src/main/java/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/src/main/java/Passenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAir/src/test/java/FlightManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/src/test/java/FlightManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAir/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/src/test/java/FlightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAir/src/test/java/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/src/test/java/PassengerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAir/target/classes/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/target/classes/Flight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAir/target/classes/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/target/classes/Passenger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAir/target/test-classes/FlightManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/target/test-classes/FlightManagerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaAir/target/test-classes/FlightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/target/test-classes/FlightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAir/target/test-classes/PassengerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAir/target/test-classes/PassengerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -59,8 +59,8 @@ public class FlightManagerTest {
         cabinCrewMember1 = new CabinCrewMember("Steve", Rank.FIRST_OFFICER);
         cabinCrewMember2 = new CabinCrewMember("Ben", Rank.PURSER);
         cabinCrewMember3 = new CabinCrewMember("Ash", Rank.FLIGHT_ATTENDANT);
-        passenger1 = new Passenger("Dave", 1);
-        passenger1 = new Passenger("Kirsty", 1);
+        passenger1 = new Passenger("Dave", 1, null, null);
+        passenger1 = new Passenger("Kirsty", 1, null, null);
         flightManager1 = new FlightManager(flight2);
         flightManager2 = new FlightManager(flight1);
     }

@@ -57,7 +57,7 @@ public class FlightTest {
         cabinCrewMember1 = new CabinCrewMember("Steve", Rank.FIRST_OFFICER);
         cabinCrewMember2 = new CabinCrewMember("Ben", Rank.PURSER);
         cabinCrewMember3 = new CabinCrewMember("Ash", Rank.FLIGHT_ATTENDANT);
-        passenger1 = new Passenger("Dave", 1);
+        passenger1 = new Passenger("Dave", 1, null, null);
 
 
     }
@@ -110,6 +110,7 @@ public class FlightTest {
         flight2.bookPassenger(passenger1);
         assertEquals(1, flight2.getAvailableSeats());
     }
+    add .
 
 
 }

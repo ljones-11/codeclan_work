@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Random;
 
 public class Flight {
 
@@ -88,6 +89,11 @@ public class Flight {
     public boolean bookPassenger(Passenger passenger){
         if (passengers.size() < plane.getPlaneType().getCapacity()){
             passengers.add(passenger);
+            passenger.setFlight(this);
+            int maxSeatNumber = plane.getPlaneType().getCapacity();
+            Random random = new Random();
+            int seatNumber = random.nextInt(maxSeatNumber) +1;
+            passenger.setSeatNumber(seatNumber);
             return true;
         } else {
             return false;
