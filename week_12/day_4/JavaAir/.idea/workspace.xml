@@ -5,18 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c35ed6-0306-4d55-b05a-bee584dc18d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/src/main/java/IMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/src/main/java/IStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/creating_interfaces/code/interfaces_start_point/src/main/java/IStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/homework/ThemeParkStartPoint/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/homework/ThemeParkStartPoint/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/homework/ThemeParkStartPoint/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/homework/ThemeParkStartPoint/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/homework/ThemeParkStartPoint/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/homework/ThemeParkStartPoint/src/test/java/ThemeParkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/src/main/java/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week_13/day_1/using_interfaces/code/interfaces_start_point/src/test/java/CarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodeClanTowers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeClanTowers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PassengerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Flight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Passenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FlightManagerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/FlightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FlightTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PassengerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PassengerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +65,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/lj/Desktop/G34/codeclan_work/week_12/day_4/JavaAir",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PassengerTest.passengerIsAssignedARandomSeatWhenBookedOnFlight">
-    <configuration name="FlightTest.flightHasPilot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FlightTest.flightHasDepartureTime">
+    <configuration name="FlightTest.flightHasDepartureTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaAir" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="flightHasPilot" />
+      <option name="METHOD_NAME" value="flightHasDepartureTime" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightTest.flightHasDepartureTime" />
         <item itemvalue="JUnit.PassengerTest.passengerIsAssignedARandomSeatWhenBookedOnFlight" />
         <item itemvalue="JUnit.PassengerTest.passengerStartsWithNoSeatNumber" />
         <item itemvalue="JUnit.PassengerTest.passengerHasFlightWhenBookedOn" />
         <item itemvalue="JUnit.PassengerTest.passengerStartsWithoutFlight" />
-        <item itemvalue="JUnit.FlightTest.flightHasPilot" />
       </list>
     </recent_temporary>
   </component>

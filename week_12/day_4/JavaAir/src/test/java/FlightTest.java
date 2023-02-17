@@ -40,7 +40,7 @@ public class FlightTest {
         plane2 = new Plane(PlaneType.MICROLIGHT);
         Date departureTime1;
         try {
-            departureTime1 = sdf.parse("0600");
+            departureTime1 = sdf.parse("0610");
         } catch (ParseException e) {
             e.printStackTrace();
             departureTime1 = new Date();
@@ -110,7 +110,7 @@ public class FlightTest {
         flight2.bookPassenger(passenger1);
         assertEquals(1, flight2.getAvailableSeats());
     }
-    add .
+
 
 
 }
