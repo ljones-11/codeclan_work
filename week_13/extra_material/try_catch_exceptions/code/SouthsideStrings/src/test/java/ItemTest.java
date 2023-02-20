@@ -15,8 +15,6 @@ public class ItemTest {
         accessory = new Accessory(5,25, "Guitar strap", "Guitar Accessories");
         guitarStrings = new GuitarStrings(2.00, 6.50, "Ernie Ball Regular Slinky", 9);
     }
-
-
     @Test
     public void accessoryHasTradePrice(){
         assertEquals(5, accessory.getTradePrice(), 0.00);

@@ -53,6 +53,12 @@ public class ShopTest {
         shop.addStock(bass);
         shop.addStock(bass);
         shop.addStock(bass);
-        assertEquals(679.00, shop.getTotalProfit(shop.getStock()), 0.00);
+        assertEquals(679.00, shop.getTotalProfit(), 0.00);
+    }
+
+    @Test
+    public void canPlayInstrument(){
+        assertEquals("bumbabumbabumbabum", shop.playInstrument(bass));
+        assertEquals("Brrrrrr Electric guitar noise", shop.playInstrument(guitar));
     }
 }

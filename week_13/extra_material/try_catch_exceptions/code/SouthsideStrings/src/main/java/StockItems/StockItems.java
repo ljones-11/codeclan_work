@@ -3,15 +3,12 @@ package StockItems;
 import Interfaces.ISell;
 
 public abstract class StockItems implements ISell {
-
     private double tradePrice;
     private double retailPrice;
-
     public StockItems(double tradePrice, double retailPrice) {
         this.tradePrice = tradePrice;
         this.retailPrice = retailPrice;
     }
-
     public double getTradePrice() {
         return tradePrice;
     }

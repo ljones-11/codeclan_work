@@ -1,5 +1,8 @@
 import Instruments.Bass;
 import Instruments.Guitar;
+import Instruments.GuitarType;
+import Instruments.InstrumentType;
+import Interfaces.IPlay;
 import Interfaces.ISell;
 
 import java.util.ArrayList;
@@ -28,7 +31,7 @@ public class Shop {
         stock.remove(iSell);
     }
 
-    public double getTotalProfit(ArrayList<ISell> stock) {
+    public double getTotalProfit() {
 //        using for Loop //
 //        double totalProfit = 0;
 //        for (ISell item : stock){
@@ -42,4 +45,9 @@ public class Shop {
                 .sum();
 
     }
+
+    public String playInstrument(IPlay iPlay) {
+        return iPlay.play();
+    }
 }
+

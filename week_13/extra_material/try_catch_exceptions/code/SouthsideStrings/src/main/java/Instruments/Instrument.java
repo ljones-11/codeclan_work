@@ -8,11 +8,8 @@ public abstract class Instrument extends StockItems implements ISell {
 
     private String material;
     private String colour;
-
     private String model;
-
     private InstrumentType instrumentType;
-
 
     public Instrument( InstrumentType instrumentType, String material, String colour, String model, double tradePrice, double retailPrice) {
         super(tradePrice, retailPrice);
