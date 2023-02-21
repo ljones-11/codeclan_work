@@ -32,19 +32,18 @@ public class Shop {
     }
 
     public double getTotalProfit() {
-//        using for Loop //
-//        double totalProfit = 0;
-//        for (ISell item : stock){
-//            totalProfit += item.calculateMarkup();
-//        }
-//        return totalProfit;
-
-//        using streams
-        return stock.stream()
-                .mapToDouble(ISell::calculateMarkup)
-                .sum();
-
+        double totalProfit = 0;
+        for (ISell item : stock){
+            totalProfit += item.calculateMarkup();
+        }
+        return totalProfit;
     }
+
+//    using streams
+
+//                return stock.stream()
+//                        .mapToDouble(ISell::calculateMarkup)
+//                .sum();
 
     public String playInstrument(IPlay iPlay) {
         return iPlay.play();
